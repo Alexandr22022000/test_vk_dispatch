@@ -1,0 +1,9 @@
+.content__friends-list-container {
+    padding: 20px 5px 0 20px;
+    vertical-align: top;
+}
+
+.content__child-container {
+    padding: 20px 20px 0 5px;
+    vertical-align: top;
+}

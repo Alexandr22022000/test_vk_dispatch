@@ -1,0 +1,46 @@
+.friends-list-item {
+    background-color: #222222;
+    height: 70px;
+    width: 400px;
+    text-align: left;
+    padding: 10px;
+}
+
+.friends-list-item_selectable {
+    cursor: pointer;
+}
+
+.friends-list-item_selectable:hover {
+    background-color: #333;
+}
+
+.friends-list-item_active {
+    background-color: #000;
+}
+
+.friends-list-item__image, .friends-list-item__text {
+    display: inline-block;
+}
+
+.friends-list-item__image {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.friends-list-item__text {
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.friends-list-item__name {
+    color: #DDD;
+    font-size: 16px;
+}
+
+.friends-list-item__online {
+    color: #999;
+    font-size: 15px;
+    margin-top: 10px;
+}

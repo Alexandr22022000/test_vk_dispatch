@@ -1,0 +1,49 @@
+.toolbar__line {
+    background-color: #444;
+    width: 100%;
+    text-align: left;
+}
+
+.toolbar__button, .toolbar__logout, .toolbar__update {
+    background-color: #222;
+    color: #DDD;
+    text-decoration: none;
+    height: 40px;
+    padding: 20px 20px 0;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.toolbar__function-status {
+    margin-left: 20px;
+    color: #BBB;
+}
+
+.toolbar__update {
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.toolbar__button_active {
+    background-color: #333;
+}
+
+.toolbar__status-bar, .toolbar__button, .toolbar__logout, .toolbar__status, .toolbar__update, .toolbar__function-status {
+    display: inline-block;
+}
+
+.toolbar__status {
+    margin: 15px 30px;
+    background-color: #222222;
+    color: #DDD;
+    padding: 5px;
+    border-radius: 10%;
+    border: 1px solid #999;
+    width: 100px;
+}
+
+.toolbar__logout, .toolbar__status, .toolbar__update {
+    float: right;
+}

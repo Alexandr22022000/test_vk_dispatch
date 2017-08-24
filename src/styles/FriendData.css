@@ -1,0 +1,50 @@
+.friend-data {
+    background-color: #444444;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 65vw;
+}
+
+.friend-data__cell, .friend-data__cell-text {
+    vertical-align: top;
+}
+
+.friend-data__cell-text {
+    text-align: right;
+    width: 100%;
+}
+
+.friend-data__image, .friend-data__send-message, .friend-data__name, .friend-data__online {
+    display: block;
+}
+
+.friend-data__image {
+    height: 230px;
+    width: 230px;
+    border: 2px solid #000;
+}
+
+.friend-data__send-message {
+    text-decoration: none;
+    font-size: 20px;
+    color: #DDD;
+    background-color: #222;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.friend-data__name {
+    color: #DDD;
+    font-size: 25px;
+}
+
+.friend-data__online {
+    color: #000;
+}
+
+.friend-data__info {
+    color: #BBB;
+    margin-top: 10px;
+}
