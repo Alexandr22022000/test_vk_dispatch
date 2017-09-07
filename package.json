@@ -2,6 +2,7 @@
   "name": "test-vk-dispatch",
   "version": "0.1.0",
   "description": "This is test app for test node.js and heroku",
+  "homepage": "http://localhost:5000/test-vk-dispatch-00",
   "engines": {
     "node": "6.11.1"
   },
